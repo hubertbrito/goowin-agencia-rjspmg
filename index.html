@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name=”description” content=”descrição”>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png" />
+  
+
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+    <title>GooWin Websites & Identidade Visual</title>
+  </head>
+  <body>
+    <header id="header" class="menu-light">
+      <nav class="nav">
+        <button
+          class="btn-menu"
+          aria-label="Abrir Menu"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span class="hamburger"></span>
+        </button>
+        <ul class="menu" id="menu" role="menu">
+          <li>
+            <a class="menu-pico" href="index.html"><span>Início</span></a>
+          </li>
+          <li>
+            <a class="menu-pico" href="servicos.html"
+              ><span>Criação de sites</span></a
+            >
+          </li>
+          <li>
+            <a class="menu-pico" href="branding.html"><span>Branding</span></a>
+          </li>
+          <li>
+            <a class="menu-pico" href="portifolio.html"
+              ><span>Portifólio</span></a
+            >
+          </li>
+          <li>
+            <a class="menu-pico" href="contato.html"><span>Contato</span></a>
+          </li>
+          <li>
+            <a class="menu-pico" href="sobre.html"><span>Quem somos</span></a>
+          </li>
+        </ul>
+      </nav>
+      <button id="theme-button" class="modo-claro" onclick="alterarTema()">
+        <img src="assets/moon.png" alt="Dark Mode" id="theme-icon" />
+        <span id="theme-text">Dark</span>
+      </button>
+    </header>
+    <section class="secao-banner" id="banner">
+      <div class="texto-banner">
+        <div>
+          <div class="logo-banner">
+            <div class="container-conjunto">
+              <img class="conjunto-logo" src="assets/padrao02.png" alt="" />
+            </div>
+            <div>
+              <img
+                src="assets/logo-clara-bola-roxa.png"
+                alt="Logo"
+                id="topo-logo"
+              />
+            </div>
+          </div>
+          <div>
+            <h1>
+              Marketing, branding e Desenvolvimento de sites <br />
+              para sua empresa
+            </h1>
+          </div>
+        </div>
+        <div class="cards-banner">
+          <div class="borda-card">
+            <div class="caixa-gradiente">
+              <div class="texto-gradiente1"><h3>Web design</h3></div>
+            </div>
+          </div>
+          <div class="borda-card">
+            <div class="caixa-gradiente">
+              <div class="texto-gradiente2"><h3>Branding</h3></div>
+            </div>
+          </div>
+          <div class="borda-card">
+            <div class="caixa-gradiente">
+              <div class="texto-gradiente3"><h3>Marketing</h3></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="missao-section">
+      <div class="texto-missao">
+        <p>
+          Na GooWin, trabalhamos nas quatro esferas essenciais da comunicação,
+          englobando estratégias de marketing, branding, websites e experiências
+          do usuário. Buscamos ser a escolha colaborativa, acessível e confiável para empreendedores que
+          desejam expandir seus negócios e alcançar um posicionamento
+          estratégico digital.
+        </p>
+      </div>
+      <img id="sobre" src="assets/padrao01.png" alt="pessoas comendo sorvete" />
+    </section>
+    
+    <div class="titulo-secao">Serviços</div>
+    <section class="servicos">
+      <div class="titulo-servico1">
+        <h2>Branding e Comunicação</h2>
+      </div>
+
+      <div class="texto-servico">
+        <span
+          >"Descubra o poder do branding e comunicação para impulsionar o seu
+          negócio"</span
+        >
+        <p>
+          Construir uma marca forte e uma comunicação clara são essenciais para
+          o sucesso de qualquer negócio. Ajudamos você a desenvolver uma
+          estratégia de branding e comunicação que garanta que sua mensagem seja
+          consistente e eficaz em todos os canais.
+        </p>
+        <div>
+          <a href="branding.html"
+            ><span class="botao-servicos">Saiba mais</span></a
+          >
+        </div>
+      </div>
+    </section>
+    <div class="divisoria"></div>
+
+    <section class="servicos">
+      <div class="titulo-servico2">
+        <h2>Sites Personalizados</h2>
+      </div>
+      <div class="texto-servico">
+        <span
+          >"O seu site é a sua vitrine para atrair o seu cliente e seu marketing
+          deve estar integrado com uma estrutura web eficiente, inteligente e
+          segura".</span
+        >
+        <p>
+          Combine beleza e funcionalidades para interagir com o seu cliente de
+          forma personalizada e divertida; com sites dinâmicos modernos que
+          sejam visualmente atraentes, intuitivos e responsivos, que se adaptem
+          a diferentes dispositivos e plataformas. Nós também podemos otimizar a
+          experiência do usuário, entendendo suas necessidades, expectativas e
+          comportamentos.
+        </p>
+        <div>
+          <a href="servicos.html"
+            ><span class="botao-servicos">Saiba mais</span></a
+          >
+        </div>
+      </div>
+    </section>
+    <div class="titulo-secao">Portifólio</div>
+    <section class="servicos">
+      <img src="assets/projetos-home.svg" alt="sorvetes diversos" />
+      <div class="texto-servico">
+        <h2>Soluções personalizadas</h2>
+
+        <p>
+          Acreditamos que o design de marca é a chave para comunicar a
+          identidade de uma marca de forma clara e eficaz. Seja em branding ou
+          desenvolvimento de sites, trabalhamos estreitamente com nossos
+          clientes para criar soluções personalizadas que reflitam a identidade
+          única de cada marca.
+        </p>
+        <a href="portifolio.html"
+          ><span class="botao-servicos">Saiba mais</span></a
+        >
+      </div>
+    </section>
+    <div class="titulo-secao">Fale conosco</div>
+    <section class="servicos">
+      <div class="texto-servico">
+        <h2>Desperte seu negócio!</h2>
+        <p>
+          Estamos aqui para ajudá-lo a alcançar seus objetivos de negócios. Seja
+          marketing e branding, criação de sites ou landing pages para campanhas
+          ADS. Temos a expertise para impulsionar seu sucesso. Ao preencher este
+          formulário você dá o primeiro passo e nós entraremos em contato para
+          te fornecer todas as informações que precisar sem nenhum compromisso
+          da sua parte. Ao entrar em contato conosco, você terá acesso a uma
+          equipe de especialistas dedicados a entender suas necessidades e
+          fornecer soluções personalizadas.
+        </p>
+      </div>
+      <div class="container-form">
+        <form id="formzap">
+          <label>
+            Nome:
+            <div class="contain-inputtext">
+              <input  type="text" name="nome" id="nome" required />
+            </div>
+          </label>
+          <label>
+            Email:
+            <div class="contain-inputtext">
+              <input type="email" name="email" id="email" required />
+            </div>
+          </label>
+          <label>
+            Telefone:
+            <div class="contain-inputtext">
+              <input type="tel" name="telefone" id="telefone" required />
+            </div>
+          </label>
+          <label>
+            Nome da Empresa:
+           <div class="contain-inputtext">
+            <input type="text" name="nomeEmpresa" id="nomeEmpresa" required />
+           </div>
+          </label>
+          <label>
+            Tipo de Serviço:
+            <div class="contain-inputtext">
+              <select name="servico" id="servico" required>
+                <option value=""></option>
+                <option value="Marketing e Branding">Marketing e Branding</option>
+                <option value="Site Institucional">Site Institucional</option>
+                <option value="Mini site profissional liberal">Mini site profissional liberal</option>
+                <option value="Currículo Web">Currículo Web</option>
+                <option value="Portfólio de prestador de Serviços">Portfólio de prestador de Serviços</option>
+                <option value="Loja Virtual">Loja Virtual (E-commerce)</option>
+                <option value="Landing-page">Landing-page</option>
+                <option value="Página-de-vendas">Página de vendas</option>
+                <option value="Portfólio Profissional">Portfólio Profissional</option>
+                <option value="Blogs e Conteúdo">Blogs e Conteúdo</option>
+                <option value="Sites de Reservas e Agendamentos">Sites de Reservas e Agendamentos</option>
+              </select>
+            </div>
+           
+          </label>
+          <label>
+            Mensagem:
+           <div class="contain-inputtext">
+            <textarea name="mensagem" id="mensagem" required></textarea>
+           </div>
+          </label>
+          <button id="buttonEnviar" type="submit" value="Enviar" onclick="enviarParaWhatsApp()">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="rodape-parallax5">
+        <div class="rodape limite-largura">
+          <div class="logo-rodape">
+            <div>
+              <img
+                class="conjunto-logo-rodape"
+                src="assets/padrao02.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="nome-logo-rodape"
+                src="assets/logo-clara-bola-roxa.png"
+                alt="Logo do rodapé"
+              />
+            </div>
+          </div>
+
+          <div class="rodape-conteudo-links">
+            <h2>Links do site</h2>
+            <ul class="links-rodape">
+              <li>
+                <a href="index.html"><span class="menu-rodape">Início</span></a>
+              </li>
+              <li>
+                <a href="servicos.html"
+                  ><span class="menu-rodape">Criação de sites</span></a
+                >
+              </li>
+              <li>
+                <a href="branding.html"
+                  ><span class="menu-rodape">Branding</span></a
+                >
+              </li>
+              <li>
+                <a href="portifolio.html"
+                  ><span class="menu-rodape">Portifólio</span></a
+                >
+              </li>
+              <li>
+                <a href="contato.html"
+                  ><span class="menu-rodape">Contato</span></a
+                >
+              </li>
+              <li>
+                <a href="sobre.html"
+                  ><span class="menu-rodape">Quem somos</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="rodape-conteudo">
+            <h2>Contato</h2>
+
+            <ul>
+              <li>
+                <a
+                  href="https://www.google.com/maps/place/Rio+de+Janeiro,+RJ"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/local.png"
+                    title="Ícone local"
+                    alt="Ícone local"
+                  />
+                  <span>Rio de Janeiro, RJ</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+21999999999" tel="+21999999999">
+                  <img
+                    src="assets/telefone.png"
+                    title="Ícone telefone"
+                    alt="Ícone telefone"
+                  />
+                  <span>Telefone: (21) 9999-9999</span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:contato@agencia.com.br">
+                  <img
+                    src="assets/email.png"
+                    title="Ícone email"
+                    alt="Ícone email"
+                  />
+                  <span>Email: contato@agencia.com.br</span>
+                </a>
+              </li>
+              <!-- Adicione mais itens de lista conforme necessário -->
+            </ul>
+          </div>
+
+          <div class="rodape-conteudo">
+            <h2>Nossas Redes Sociais</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://www.facebook.com/AgenciaGooWin.digital"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/fb.png"
+                    title="Ícone facebook"
+                    alt="Ícone facebook"
+                  />
+                  <span>/AgenciaGooWin.digital</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/AgenciaGooWin.digital"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/ig.png"
+                    title="Ícone instagram"
+                    alt="Ícone instagram"
+                  />
+                  <span>@AgenciaGooWin.digital</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/AgenciaGooWin.digital"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/tt.png"
+                    title="Ícone twitter"
+                    alt="Ícone twitter"
+                  />
+                  <span>@AgenciaGooWin.digital</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-rodape">
+        <!-- Rodapé da página -->
+        <p>&copy; GooWin - Produtora digital - 2024</p>
+        <a href="#banner"></a>
+      </div>
+      <div class="buttonzap">
+        <a
+          href="https://api.whatsapp.com/send?phone=55999999999&"
+          class="icon"
+          target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

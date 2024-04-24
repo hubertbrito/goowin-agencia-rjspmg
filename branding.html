@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GooWin: Branding</title>
+    <link rel="stylesheet" href="branding.css" />
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon180.png"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header  id="header"  class="menu-light">
+      <div class="div-logo-topo">
+        <div>
+          <img class="icone-logo-banner" src="assets/padrao02.png" alt="">
+        </div>
+          <img src="assets/logoclara.png" alt="Logo" id="topo-logo">
+      </div>
+      <nav class="nav">
+        <button
+          class="btn-menu"
+          aria-label="Abrir Menu"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+        <span class="hamburger"></span>
+        </button>
+        <!-- <input type="checkbox" id="checkbox" class="checkbox" />
+        <label for="checkbox" class="label-menu"
+          >Menu<span class="hamburger"></span
+        ></label> -->
+        <ul class="menu" id="menu" role="menu">
+          <li><a class="menu-pico" href="index.html"><span>Início</span></a></li>
+          <li><a class="menu-pico" href="servicos.html"><span>Criação de sites</span></a></li>
+          <li><a class="menu-pico" href="branding.html"><span>Branding</span></a></li>
+          <li><a class="menu-pico" href="portifolio.html"><span>Portifólio</span></a></li>
+          <li><a class="menu-pico" href="contato.html"><span>Contato</span></a></li>
+          <li><a class="menu-pico" href="sobre.html"><span>Quem somos</span></a></li>
+          
+        </ul>
+      </nav>
+       
+      <button id="theme-button" class="modo-claro" onclick="alterarTema()">
+        <img src="assets/moon.png" alt="Dark Mode" id="theme-icon">
+        <span id="theme-text">Dark</span>
+    </button>
+    </header>
+    <body>
+        <section class="secao-banner-sabores" id="banner">
+            <div class="titulo-banner-sabores">
+            <h2>Nossos Serviços de Consultoria<br> de Marketing e Branding<br> estarão disponiveis</h2>
+              <h1>Em Breve</h1>
+            </div>
+          </section>
+          <footer>
+            <div class="rodape-parallax5">
+              <div class="rodape limite-largura">
+                <div class="logo-rodape">
+                  <div>
+                    <img
+                      class="conjunto-logo-rodape"
+                      src="assets/padrao02.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <img
+                      class="nome-logo-rodape"
+                      src="assets/logo-clara-bola-roxa.png"
+                      alt="Logo do rodapé"
+                    />
+                  </div>
+                </div>
+      
+                <div class="rodape-conteudo-links">
+                  <h2>Links do site</h2>
+                  <ul class="links-rodape">
+                    <li>
+                      <a href="index.html"><span class="menu-rodape">Início</span></a>
+                    </li>
+                    <li>
+                      <a href="servicos.html"
+                        ><span class="menu-rodape">Criação de sites</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="branding.html"
+                        ><span class="menu-rodape">Branding</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="portifolio.html"
+                        ><span class="menu-rodape">Portifólio</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="contato.html"
+                        ><span class="menu-rodape">Contato</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="sobre.html"
+                        ><span class="menu-rodape">Quem somos</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="rodape-conteudo">
+                  <h2>Contato</h2>
+      
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.google.com/maps/place/Rio+de+Janeiro,+RJ"
+                        target="_blank"
+                      >
+                        <img
+                          src="assets/local.png"
+                          title="Ícone local"
+                          alt="Ícone local"
+                        />
+                        <span>Rio de Janeiro, RJ</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+21999999999" tel="+21999999999">
+                        <img
+                          src="assets/telefone.png"
+                          title="Ícone telefone"
+                          alt="Ícone telefone"
+                        />
+                        <span>Telefone: (21) 9999-9999</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:contato@agencia.com.br">
+                        <img
+                          src="assets/email.png"
+                          title="Ícone email"
+                          alt="Ícone email"
+                        />
+                        <span>Email: contato@agencia.com.br</span>
+                      </a>
+                    </li>
+                    <!-- Adicione mais itens de lista conforme necessário -->
+                  </ul>
+                </div>
+      
+                <div class="rodape-conteudo">
+                  <h2>Nossas Redes Sociais</h2>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/AgenciaGooWin.digital"
+                        target="_blank"
+                      >
+                        <img
+                          src="assets/fb.png"
+                          title="Ícone facebook"
+                          alt="Ícone facebook"
+                        />
+                        <span>/AgenciaGooWin.digital</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/AgenciaGooWin.digital"
+                        target="_blank"
+                      >
+                        <img
+                          src="assets/ig.png"
+                          title="Ícone instagram"
+                          alt="Ícone instagram"
+                        />
+                        <span>@AgenciaGooWin.digital</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/AgenciaGooWin.digital"
+                        target="_blank"
+                      >
+                        <img
+                          src="assets/tt.png"
+                          title="Ícone twitter"
+                          alt="Ícone twitter"
+                        />
+                        <span>@AgenciaGooWin.digital</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="container-rodape">
+              <!-- Rodapé da página -->
+              <p>&copy; GooWin - Produtora digital - 2024</p>
+              <a href="#banner"></a>
+            </div>
+            <div class="buttonzap">
+              <a
+                href="https://api.whatsapp.com/send?phone=55999999999&"
+                class="icon"
+                target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </footer>
+    </body>
+</html>    

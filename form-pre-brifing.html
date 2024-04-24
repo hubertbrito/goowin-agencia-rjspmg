@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Briefing para Criação de projeto do Website"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GooWin: Briefing</title>
+    <link rel="stylesheet" href="form-pre-brifing.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&amp;display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="div-logo-topo">
+        <div>
+          <img class="icone-logo-banner" src="assets/padrao02.png" alt="">
+        </div>
+          <img src="assets/logo-preta-bola-roxa.png" alt="Logo" id="topo-logo">
+      </div>
+      <div class="topo-titulo">
+        <p>Briefing para Criação de Website</p>
+      </div>
+      
+      </div>
+    </header>
+    <main>
+      <section class="orcamento-fundo">
+        <div class="orcamento-area limite-largura">
+          <div class="orcamento-cabecalho">
+            <img class="orcamento-logo" src="./assets/checklist-brifing.png" title="" alt="" />
+           <div class="orcamento-descricao">
+            <h1>
+              Por favor preencha as informações no formulário para começar
+              organizar o projeto do seu site
+            </h1>
+           </div>
+          </div>
+          <div class="orcamento-area-formulario">
+            <p class="orcamento-subtitulo-formulario">
+              Preencha os dados mas não se preocupe, pois muitas informações
+              poderão ser alteradas durante o processo de criação do projeto do
+              seu site. Essas informações serão importantes principalmente para
+              processo inicial de análise e orçamento.</p> <br>
+              <h5>Próximos Passos:</h5>
+             <p class="orcamento-subtitulo-formulario"><br>
+              Após o recebimento do briefing, entraremos em contato para 
+              apresentar um pré-orçamento e um cronograma para o projeto.
+              Se aprovado agendaremos uma call para discuti-lo em mais detalhes.
+              <br>
+             
+              Lembre-se:
+              Quanto mais informações o cliente fornecer, mais preciso será o 
+              orçamento e o cronograma do projeto.
+              
+            </p>
+            <form action="https://api.web3forms.com/submit" method="POST" class="formulario">
+              <div class='secao-input-text'>
+                <label id="nome-empresa" for="nome-empresa">Nome da empresa</label>
+                <input type="hidden" name="access_key" value="a0d1a7db-27da-47e3-bcce-8c0bd744b96f">
+                <input id="nome-empresa" placeholder="Nome fantasia" type="text" name="nome-empresa" required />
+             
+              
+
+              <label id="Ramo" for="ramo"> Ramo de atividade</label>
+              <input id="ramo" placeholder="Exemplo: Empresa especializada em soluções de energia renovável, comprometida com a sustentabilidade ambiental" 
+              type="text" name="ramo" required />
+
+              <label id="url-seusite" for="url-seusite">Endereço do Website Atual (se houver)</label>
+              <input placeholder="nomedasuaempresa.com.br" id="url-seusite" type="text" name="url-seusite" />
+
+              <!-- Objetivo do site-->
+              <label id="objetivo" for="objetivo"
+                >O que você espera que o novo website faça pelo seu
+                negócio?</label
+              >
+              <input id="objetivo" placeholder=" Exemplo: Queremos um site para promover nossos produtos e serviços, aumentar a visibilidade da marca e gerar leads" 
+              type="text" name="objetivo" required />
+              <!-- Objetivo do site-->
+
+              <!-- referencias de designer-->
+              <label id="referencia" for="referencia"
+                >Coloque o endereço url de pelo menos três sites que você goste
+                de algun aspecto neles
+                que possamos tomar como referência visual</label
+              >
+              <input id="referencia" placeholder="Copie a url e cole aqui" type="text" name="referencia"/>
+              <!-- referencias de designer-->
+
+              <!--Publico alvo-->
+              <label id="titulo-label" for="publico-alvo"
+                >Quem é o seu público-alvo?</label
+              >
+              <input id="publico-alvo" placeholder="Exemplo: Nosso público-alvo é composto por jovens adultos entre 25 e 35 anos interessados em estilo de vida saudável." 
+              type="text" name="publico-alvo" required />
+              <!--Publico alvo-->
+
+             
+
+              <!--Conteudo pronto-->
+              <label id="titulo-label" for="conteúdo-pronto"
+                >Você tem conteúdo (textos, imagens, vídeos) prontos para o site ou 
+                precisará de ajuda para produzir esse conteúdo?
+                </label
+              >
+              <input id="conteúdo-pronto" placeholder="Exemplo: Temos alguns textos e imagens prontos, mas precisaremos de ajuda para produzir mais conteúdo." 
+              type="text" name="conteúdo-pronto" required />
+             <!--Conteudo pronto-->
+
+             <!--Conteudo-->
+             <label id="titulo-label" for="tipo-conteudo">
+              Quais são as principais informações que você deseja que o website contenha?
+             </label>
+             <textarea id="tipo-conteudo" type="text" name="tipo-conteudo" rows="5" placeholder="Exemplo: Quero que o website contenha informações detalhadas sobre os serviços médicos oferecidos, perfis dos especialistas, informações para agendamento de consultas e uma seção de dúvidas frequentes para orientar os pacientes."
+             required></textarea>
+             <!--Conteudo-->
+             </div>
+
+             <div class="secao-input-text">
+              <!-- Escolhendo datas e o tipo do site-->
+              <div class="formulario-campo-duplo">
+                <div>
+                  <label id="titulo-label" for="inicio"
+                    >Defina uma previsão data para inicio</label
+                  >
+                  <input id="inicio" type="date" name="inicio" required />
+                </div>
+                <div>
+                  <label id="titulo-label" for="entrega"
+                    >Defina uma previsão data para entrega</label
+                  >
+                  <input id="entrega" type="date" name="entrega" required />
+                </div>
+              </div>
+              <div class="formulario-campo-duplo">
+                <div>
+                  <label id="titulo-label" for="tipo-site">Escolha o tipo de site</label>
+                  <select id="tipo-site" name="tipo-site" required>
+                    <option selected>Landing page</option>
+                    <option value="I">Institucional</option>
+                    <option value="B">Blog</option>
+                    <option value="Lv">Loja virtual</option>
+                    <option value="Ib">Institucional com blog</option>
+                    <option value="hot">HotSite</option>
+                    <option value="one">One page</option>
+                    <option value="nicho">Site de Nicho</option>
+                  </select>
+                </div>
+                <div>
+                  <label id="titulo-label" for="objetivo-principal"
+                    >Defina o principal objetivo do novo website?</label
+                  >
+                  <select id="objetivo-principal" name="objetivo-principal" required>
+                    <option selected></option>
+                    <option value="Construir-confiança">
+                      Construir confiança
+                    </option>
+                    <option value="Garantir-experiencia">
+                      Garantir experiência
+                    </option>
+                    <option value="Apresentar-oferta">Apresentar oferta</option>
+                    <option value="Estabelecer-contato">
+                      Estabelecer contato
+                    </option>
+                    <option value="Vender-online">Vender online</option>
+                    <option value="Gerar-leads">Gerar leads</option>
+                    <option value="Promover-evento">Promover evento</option>
+                    <option value="Divulgar-conhecimento">
+                      Divulgar conhecimento
+                    </option>
+                    <option value="Criar-autoridade">Criar autoridade</option>
+                    <option value="Mostrar-portfolio">Mostrar portfólio</option>
+                    <option value="Informar-publico">Informar público</option>
+                    <option value="Atrair-trafego">Atrair tráfego</option>
+                    <option value="Engajar-audiencia">Engajar audiência</option>
+                    <option value="Educar-mercado">Educar mercado</option>
+                    <option value="Fidelizar-clientes">
+                      Fidelizar clientes
+                    </option>
+                    <option value="Lançar-produto">Lançar produto</option>
+                    <option value="Anunciar-serviço">Anunciar serviço</option>
+                    <option value="Vender-online">Vender online</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Escolhendo datas e o tipo do site-->
+              </div>
+
+              
+              
+               <!-- se possui dominio e hospedagem-->
+               <div class="secao-input-text">
+                <label id="titulo-label">Já possui serciço de hospedagem de site</label>
+                <div class="radio">
+                  <div>
+                    <input
+                      id="sim-possuo"
+                      type="radio"
+                      name="hospedagem"
+                      value="s"
+                    />
+                <label for="sim-possuo">Sim</label>
+                </div>
+                  <div>
+                    <input
+                      id="nao-possuo"
+                      type="radio"
+                      name="hospedagem"
+                      value="n"
+                      />
+                    <label for="nao-possuo">Não</label>
+                  </div>
+                </div>
+               </div>
+             
+               <div class="secao-input-text">
+              <label id="titulo-label">Já possui um nome de domínio registrado?</label>
+              <div class="radio">
+                <div>
+                  <input
+                    id="possuo-dominio"
+                    type="radio"
+                    name="dominio"
+                    value="s"
+                  />
+                  <label for="possuo-dominio">Sim</label>
+                </div>
+                <div>
+                  <input
+                    id="possuo-dominio"
+                    type="radio"
+                    name="dominio"
+                    value="n"
+                  />
+                  <label for="possuo-dominio">Não</label>
+                </div>
+              </div>
+              </div>
+               <!-- se possui dominio e hospedagem-->
+
+                <!-- se possui logo e indentidade visual-->
+              <div class="secao-input-text">  
+              <label id="titulo-label">A empresa possui logo e identidade visual?</label>
+              <div class="radio">
+                <div>
+                  <input
+                    id="indentidade-visual"
+                    type="radio"
+                    name="indentidade-visual"
+                    value="s"
+                  />
+                  <label for="sim-possuo">Sim</label>
+                </div>
+                <div>
+                  <input
+                    id="indentidade-visual"
+                    type="radio"
+                    name="indentidade-visual"
+                    value="n"
+                  />
+                  <label for="indentidade-visual">Não</label>
+                </div>
+              </div>
+              </div>
+              <!-- se possui logo e indentidade visual-->
+
+                 <!-- se vai gerenciar o próprio site--->
+              <div class="secao-input-text">   
+              <label id="titulo-label">A empresa possui equipe interna para gerenciar o website?</label>
+              <div class="radio">
+                <div>
+                  <input
+                    id="auto-gerencia"
+                    type="radio"
+                    name="auto-gerencia"
+                    value="s"
+                  />
+                  <label for="auto-gerencia">Sim</label>
+                </div>
+                <div>
+                  <input
+                    id="auto-gerencia"
+                    type="radio"
+                    name="auto-gerencia"
+                    value="n"
+                  />
+                  <label for="auto-gerencia">Não</label>
+                </div>
+              </div>
+              </div>
+                 <!-- se vai gerenciar o próprio site--->
+              
+
+
+                <!-- Escolhendo estilo do site-->
+              <div class="secao-input-text">    
+              <label id="titulo-label">Escolha alguns estilos para o seu site</label>
+              <div class="radio">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="minimalista"
+                    name="site_style[]"
+                    value="minimalista"
+                  />
+                  <label for="minimalista">Minimalista</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="moderno"
+                    name="site_style[]"
+                    value="moderno"
+                  />
+                  <label for="moderno">Moderno</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="retro"
+                    name="site_style[]"
+                    value="retro"
+                  />
+                  <label for="retro">Retro</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="vintage"
+                    name="site_style[]"
+                    value="vintage"
+                  />
+                  <label for="vintage">Vintage</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="flat_design"
+                    name="site_style[]"
+                    value="flat_design"
+                  />
+                  <label for="flat_design">Flat Design</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="material_design"
+                    name="site_style[]"
+                    value="material_design"
+                  />
+                  <label for="material_design">Material<br>Design</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="dark"
+                    name="site_style[]"
+                    value="dark"
+                  />
+                  <label for="dark">Dark (Preto)</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="bright"
+                    name="site_style[]"
+                    value="bright"
+                  />
+                  <label for="bright">Bright (Claro)</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="multimidia"
+                    name="site_style[]"
+                    value="multimidia"
+                  />
+                  <label for="multimidia">Multimídia</label>
+                </div>
+              </div>
+              <div class="radio">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="change-theme"
+                    name="site_style[]"
+                    value="dark-mode"
+                  />
+                  <label for="change-theme">Change-theme-darkmode</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="ilustrativo"
+                    name="site_style[]"
+                    value="ilustrativo"
+                  />
+                  <label for="ilustrativo">Ilustrativo</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="tipografico"
+                    name="site_style[]"
+                    value="tipografico"
+                  />
+                  <label for="tipografico">Tipográfico</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="fotografico"
+                    name="site_style[]"
+                    value="fotografico"
+                  />
+                  <label for="fotografico">Fotográfico</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="monocromatico"
+                    name="site_style[]"
+                    value="monocromatico"
+                  />
+                  <label for="monocromatico">Monocromático</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="geometrico"
+                    name="site_style[]"
+                    value="geometrico"
+                  />
+                  <label for="geometrico">Geométrico</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="texturizado"
+                    name="site_style[]"
+                    value="texturizado"
+                  />
+                  <label for="sugestoes">Texturizado</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="sugestoes"
+                    name="site_style[]"
+                    value="sugestoes"
+                  />
+                  <label for="sugestoes">Aceito sugestões</label>
+                </div>
+              </div>
+              </div>
+               <!-- fim estilos do site -->
+
+             
+
+               <!-- funcionalidades do site -->
+               <div class="secao-input-text">
+              <label id="titulo-label">Funcionalidades:</label>
+              <div class="radio">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="formularios_contato"
+                    name="site_functionality[]"
+                    value="formularios_contato"
+                  /><label for="formularios_contato"
+                    >Formulários de Contato</label
+                  >
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="galerias_imagens"
+                    name="site_functionality[]"
+                    value="galerias_imagens"
+                  /><label for="galerias_imagens"
+                    >Carrocel<br/>de Imagens</label
+                  >
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="chat_online"
+                    name="site_functionality[]"
+                    value="chat_online"
+                  /><label for="chat_online">Chat Online</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="busca_interna"
+                    name="site_functionality[]"
+                    value="busca_interna"
+                  /><label for="busca_interna">Busca interna</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="login"
+                    name="site_functionality[]"
+                    value="login"
+                  /><label for="login">login</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="newsletter"
+                    name="site_functionality[]"
+                    value="newsletter"
+                  /><label for="newsletter">Newsletter</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="outras-funcoes"
+                    name="site_functionality[]"
+                    value="outras-funcoes"
+                  /><label for="outras-funcoes">Outras funcoes</label>
+                </div>
+               </div>
+              </div>
+              <!-- Escolha páginas-->
+              <div class="secao-input-text">
+              <label id="titulo-label" for="tipo-conteudo">Quais páginas ou seções você 
+                gostaria de ter no seu site?</label>
+                <div class="radio"> 
+                  <div>
+                    <input type="checkbox" id="home" name="pageType" value="Home">
+                    <label for="home">Home</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="sobre-nos" name="pageType" value="Sobre Nós">
+                    <label for="sobre-nos">Sobre Nós</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="servicos" name="pageType" value="Serviços">
+                    <label for="servicos">Serviços/<br>Produtos</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="portfolio" name="pageType" value="Portfólio">
+                    <label for="portfolio">Portfólio</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="blog" name="pageType" value="Blog">
+                    <label for="blog">Blog</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="contato" name="pageType" value="Contato">
+                    <label for="contato">Contato</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="trabalhe-conosco" name="pageType" value="Trabalhe Conosco">
+                    <label for="trabalhe-conosco">Trabalhe<br>Conosco</label>
+                  </div>
+
+                  <div>
+                    <input type="checkbox" id="pag-depoimentos" name="pageType" value="pag-depoimentos">
+                    <label for="pag-depoimentos">Depoimentos/<br>Prova social</label>
+                  </div>
+                  </div>
+                  <div class="radio"> 
+                  
+                  <div>
+                    <input type="checkbox" id="faq" name="pageType" value="FAQ">
+                    <label for="faq">FAQ</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="suporte-atendimento" name="pageType" value="Suporte/Atendimento ao Cliente">
+                    <label for="suporte-atendimento">Atendimento <br>ao Cliente</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="eventos" name="pageType" value="Eventos">
+                    <label for="eventos">Eventos</label>
+                  </div>
+                  
+                  <div>
+                    <input type="checkbox" id="parceiros" name="pageType" value="Parceiros">
+                    <label for="parceiros">Parceiros</label>
+                  </div>
+
+                  <div>
+                    <input type="checkbox" id="politica-privacidade" name="pageType" value="Política de Privacidade">
+                    <label for="politica-privacidade">Política de Privacidade</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="outros-paginas" name="pageType" value="outros-paginas">
+                    <label for="outros-paginas">e outros tipos</label>
+                  </div>
+                 </div>
+                </div>
+                  <!-- Escolha páginas-->
+              <div class="secao-input-text">
+              <label id="titulo-label">Marque os tipos de conteúdos que 
+                pretende inserir no site:</label>
+              <div class="radio" id="site_content">
+                <div>
+                  <input
+                  type="checkbox"
+                  id="texto"
+                  name="site_content"
+                  value="texto"
+                />
+                <label for="texto">Texto</label><br />
+                </div>
+               <div>
+                <input
+                type="checkbox"
+                id="imagens"
+                name="site_content"
+                value="imagens"
+              />
+              <label for="imagens">Imagem</label><br />
+               </div>
+               <div>
+                <input
+                type="checkbox"
+                id="videos"
+                name="site_content"
+                value="videos"
+              />
+              <label for="videos">Vídeo</label><br />
+               </div>
+               <div>
+                <input
+                type="checkbox"
+                id="pdf"
+                name="site_content"
+                value="pdfs"
+              />
+              <label for="pdf">PDF</label><br />
+               </div>
+               <div>
+                <input
+                type="checkbox"
+                id="audio"
+                name="site_content"
+                value="audio"
+              />
+              <label for="audio">Audio</label><br />
+               </div>
+               <div>
+                <input
+                type="checkbox"
+                id="outros-tipos"
+                name="site_content"
+                value="outros-tipos"
+              />
+              <label for="outros-tipos">outros-tipos</label><br />
+               </div>
+               </div>
+              </div>
+                <!-- Escolha páginas-->
+
+              <div class="secao-input-text">
+              <label id="titulo-label">Preferências da hospedagem</label>
+              <div class="radio">
+                <div>
+                  <input
+                    id="compartilhada"
+                    type="checkbox"
+                    name="prefere-servidor"
+                    value="compartilhada"
+                  />
+                  <label for="compartilhada">Compartilhada</label>
+                </div>
+                <div>
+                  <input
+                    id="cloud"
+                    type="checkbox"
+                    name="prefere-servidor"
+                    value="cloud"
+                  />
+                  <label for="cloud">Cloud</label>
+                </div>
+                <div>
+                  <input
+                    id="vps"
+                    type="checkbox"
+                    name="prefere-servidor"
+                    value="vps"
+                  />
+                  <label for="vps">VPS</label>
+                </div>
+                <div>
+                  <input
+                    id="tipo-servidor"
+                    type="checkbox"
+                    name="prefere-servidor"
+                    value="aceita-sugestao"
+                  />
+                  <label for="tipo-servidor">Aceito sugestões</label>
+                </div>
+              </div>
+              </div>
+              <div class="botao">
+                <button type="submit">Solicitar orçamento</button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
