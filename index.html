@@ -29,6 +29,8 @@
       href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
       rel="stylesheet"
     />
+    <script src="index.js"></script>
+    <script src="app.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCM701XBK6">
     </script>
@@ -237,9 +239,12 @@
             </div>
           </label>
           <label>
-            Telefone:
+            Telefone celular<br />
+            <small>Formato: (xx) xxxxx-xxxx</small>
             <div class="contain-inputtext">
-              <input type="tel" name="telefone" id="telefone" required />
+              <!-- No seu HTML -->
+            <input type="tel" name="telefone" id="telefone" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" required />
+
             </div>
           </label>
           <label>
@@ -274,7 +279,7 @@
             <textarea name="mensagem" id="mensagem" required></textarea>
            </div>
           </label>
-          <button id="buttonEnviar" type="submit" value="Enviar" onclick="enviarParaWhatsApp()">Enviar</button>
+          <button id="buttonEnviar" type="button" onclick="enviarParaWhatsApp()">Enviar</button>
         </form>
       </div>
     </section>

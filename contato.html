@@ -87,9 +87,11 @@
                     <div class="container-inputtext"><input type="email" name="email" required/></div>
 
                     <label class="label-contact">
-                      Telefone:
+                      Telefone celular<br />
+                      <small>Formato: (xx) xxxxx-xxxx</small>
+
                     </label>
-                   <div class="container-inputtext"><input class="input-contact" type="tel" name="telefone" required/></div>
+                   <div class="container-inputtext"><input class="input-contact" type="tel" name="telefone" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"  placeholder="(xx) xxxxx-xxxx" required/></div>
 
                     <label class="label-contact">
                       Mensagem:

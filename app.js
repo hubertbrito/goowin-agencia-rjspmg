@@ -1,26 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
   var themeButton = document.getElementById('theme-button');
 
-  // Defina o tema escuro como padrão
-  if (!localStorage.getItem('theme')) {
+  // Carregue o tema preferido do localStorage
+  var preferredTheme = localStorage.getItem('theme');
+  if (preferredTheme !== 'dark') {
+      // Sempre defina o tema como "light" no localStorage
+      localStorage.setItem('theme', 'light');
+      document.body.classList.remove('dark-mode');
+  } else {
       document.body.classList.add('dark-mode');
   }
 
   themeButton.addEventListener('click', function() {
       document.body.classList.toggle('dark-mode');
 
+      // Sempre atualize o valor no localStorage
       localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
 
       alterarTema(); // Atualize as imagens e o texto no botão
   });
 
-  // Carregue o tema preferido do localStorage
-  var preferredTheme = localStorage.getItem('theme');
-  if (preferredTheme === 'light') {
-      document.body.classList.remove('dark-mode');
-  } else {
-      document.body.classList.add('dark-mode');
-  }
   alterarTema(); // Atualize as imagens e o texto no botão
 });
 
@@ -99,36 +98,3 @@ function setAria() {
 
 btnMenu.addEventListener("click", handleButtonClick);
 btnMenu.addEventListener("touchstart", handleButtonClick);
-
-
-
-
-//form que leva pro whatsapp
-function enviarParaWhatsApp() {
-    var nome = document.getElementById("nome").value;
-    var email = document.getElementById("email").value;
-    var telefone = document.getElementById("telefone").value;
-    var nomeEmpresa = document.getElementById("nomeEmpresa").value;
-    var servico = document.getElementById("servico").value;
-    var mensagem = document.getElementById("mensagem").value;
-
-    if (!nome || !email || !telefone || !nomeEmpresa || !servico || !mensagem) {
-      alert('Todos os campos são obrigatórios!');
-      return;
-    }
-
-
-    // Substitua o número abaixo pelo número de WhatsApp da sua empresa
-    var numeroWhatsApp = "5521970267055";
-
-    var textoMensagem = "Nome: " + nome + "%0A" + " " +
-                        "Email: " + email + "%0A" +" " +
-                        "Telefone: " + telefone + "%0A" + " " +
-                        "Nome da Empresa: " + nomeEmpresa + "%0A" + " " +
-                        "Serviço: " + servico + "%0A" + " " +
-                        "Mensagem: " + mensagem;
-
-    var linkWhatsApp = "https://api.whatsapp.com/send?phone=" + numeroWhatsApp + "&text=" + textoMensagem;
-
-    window.open(linkWhatsApp, '_blank');
-}
