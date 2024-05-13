@@ -114,23 +114,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-function validarTelefone(telefone) {
-  // Expressão regular para validar o formato do telefone (xx) xxxxx-xxxx
-  const regexTelefone = /^\(\d{2}\) \d{5}-\d{4}$/;
-  return regexTelefone.test(telefone);
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  const telefoneInput = document.getElementById("telefone");
-
-  telefoneInput.addEventListener("blur", function () {
-      const telefoneValue = telefoneInput.value;
-
-      if (!validarTelefone(telefoneValue)) {
-          alert("Por favor, insira um telefone válido no formato (xx) xxxxx-xxxx.");
-      }
-  });
-});
 
 function enviarParaWhatsApp() {
   const nomeValue = document.getElementById("nome").value;
