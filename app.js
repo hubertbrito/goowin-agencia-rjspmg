@@ -139,7 +139,7 @@ function enviarParaWhatsApp() {
  
 
   // Todos os campos estão preenchidos e validados, envie para o WhatsApp
-  const numeroWhatsApp = "55 21 970267055"; // Substitua pelo número correto
+  const numeroWhatsApp = "55 31 988711073"; // Substitua pelo número correto
   const mensagemWhatsApp = `Nome: ${nomeValue}%0AEmail: ${emailValue}%0ATelefone: ${telefoneValue}%0ANome da empresa: ${nomeEmpresaValue}%0AServiço: ${servicoValue}%0AMensagem: ${mensagemValue}`;
 
   // Crie o link para enviar para o WhatsApp
