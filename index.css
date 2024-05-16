@@ -555,7 +555,10 @@ textarea {width: 100%;
   border-radius: 5px;
   cursor: pointer;
 }
-
+#msg-aviso{
+  color: #FCB91B;
+  font-weight: bold;
+}
 /* fim form */
 
 
